@@ -1,0 +1,122 @@
+
+body{
+    background-color: #000000;
+
+}
+
+.menu{
+    margin-left: 50%;
+}
+
+.nav-item a:hover{
+    background-color: white;
+    color: black !important;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.nav-link a{
+    color:black;
+}
+.navbar{
+    font-size: 20px;
+    
+}
+.figure{
+    text-align: center;
+    width: 100%;
+}
+h2{
+    color: yellow;
+    font-size: 26px;
+}
+.figure img:hover{
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid yellow;
+    border-right: 4px solid yellow;
+    border-left: 4px solid yellow;
+    transition: 0.9s;
+
+}
+
+.font-ex{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.card {
+    width: 288px;
+    height: 656px;
+}
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 190px;
+    margin-bottom: 120px;
+    color: yellow;;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+footer{
+    margin-top: 450px;
+}
+
+.page-footer{
+    color: white;
+}
+
+.logo-rodape{
+    width: 300px;
+}
+.rodape{
+    text-align: center;
+}
+
+.list-unstyled a{
+    color: yellow!important;
+}
+.rede li{
+    width: 30px;
+    display:inline-block;
+    margin-left: 5px;
+}
